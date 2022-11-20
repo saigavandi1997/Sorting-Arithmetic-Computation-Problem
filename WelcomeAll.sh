@@ -9,3 +9,5 @@ d1=$(($a * $b + $c))
 echo $d1
 d=$(($c + $a / $b))
 echo $d
+d=$(($a / $b + $c))
+echo $d
