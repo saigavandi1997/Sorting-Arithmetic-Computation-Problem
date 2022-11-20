@@ -18,5 +18,6 @@ echo "a*b+c" ${Results[d2]}
 echo "c+a/b" ${Results[d3]}
 echo "a/b+c" ${Results[d4]}
 echo "Total Results " ${#Results[*]}
-Results=d1+d2+d3+d4
+#Results=d1+d2+d3+d4
 echo ${#Results[Results]}
+$sort -nr $Results
